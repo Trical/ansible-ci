@@ -12,7 +12,7 @@
 #
 
 playbook=/etc/ansible/site.yml
-inventory=/etc/ansible/inventory_dev
+inventory=/etc/ansible/inventory/development
 
 if [ ! -f ${playbook} ]; then
   echo "Cannot find Ansible playbook."
