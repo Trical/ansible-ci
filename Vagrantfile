@@ -63,7 +63,7 @@ end
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
-  config.vm.box = 'centos70-nocm'
+  config.vm.box = 'centos70'
 
   hosts.each do |host|
     config.vm.define host['name'] do |node|
