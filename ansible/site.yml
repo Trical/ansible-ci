@@ -1,7 +1,6 @@
 # site.yml
 ---
 - hosts: webservers
-  user: vagrant
   sudo: true
   roles:
     - common
