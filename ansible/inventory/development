@@ -1,8 +1,8 @@
 [webservers]
-web
+web ansible_ssh_host=192.168.56.10 ansible_ssh_user=vagrant ansible_ssh_pass=vagrant
 
 [dbservers]
-db
+db ansible_ssh_host=192.168.56.11 ansible_ssh_user=vagrant ansible_ssh_pass=vagrant
 
 [development:children]
 webservers

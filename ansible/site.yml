@@ -4,8 +4,11 @@
   sudo: true
   roles:
     - common
+    - web
+    - firewall
 
 - hosts: dbservers
   sudo: true
   roles:
     - common
+    - firewall
